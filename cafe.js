@@ -4,4 +4,10 @@ if(favouriteBeaverage=="coffee"){
   alert("your order for"+" "+favouriteBeaverage+" "+ "has been recieved!");}
   else if(favouriteBeaverage=="tea"){
     alert("your order for"+" "+favouriteBeaverage+" "+ "has been recieved!");}
-    else{ alert("please enter the coffee or tea!")}
+    else if(favouriteBeaverage=="strong tea"){
+      alert("your order for"+" "+favouriteBeaverage+" "+ "has been recieved!");}
+      else if(favouriteBeaverage=="Mango juice"){
+        alert("your order for"+" "+favouriteBeaverage+" "+ "has been recieved!");}
+        else if(favouriteBeaverage=="Orange juice"){
+          alert("your order for"+" "+favouriteBeaverage+" "+ "has been recieved!");}
+    else{ alert("We don't have "+" " +favouriteBeaverage+" "+"in our menu")}
